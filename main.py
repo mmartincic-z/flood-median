@@ -24,7 +24,7 @@ for i, meas in enumerate(datalist[:-windowSize]) :
         floodIntervals.append((startIdx, i))
         startIdx = -1
 
-print(f"Found flood intervals {len(floodIntervals)}")
+#print(f"Found flood intervals {len(floodIntervals)}")
 
 idleIntervals = []
 prevInterval = (0, 0)
